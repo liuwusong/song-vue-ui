@@ -1,6 +1,6 @@
-./src/App.vue
-./src/main.js
-./src/assets/*
+src/App.vue
+src/main.js
+src/assets/
 
 index.html
 webpack.config.js
