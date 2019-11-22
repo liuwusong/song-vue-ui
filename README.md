@@ -2,17 +2,19 @@
 
 > 一个后台管理 ui
 
-## Build Setup
+## Install
 
 ```bash
 # install dependencies
-npm install
+npm install song-vue-ui --save
 
-# serve with hot reload at localhost:8080
-npm run dev
+# Add the following code to  src/main.js
+import SongVueUi from 'song-vue-ui'
+# ~  = node_modules
+@import '~song-vue-ui/style/index.scss'
 
-# build for production with minification
-npm run build
+Vue.use(SongVueUi)
+
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
