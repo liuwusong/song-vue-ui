@@ -1,6 +1,6 @@
 # song-vue-ui
 
-> 一个后台管理 ui
+> 一个后台管理系统 ui
 
 ## Install
 
@@ -13,7 +13,7 @@ Vue.use(SongVueUi)
 
 # import scss
 # Create a new index.scss，Used to modify some configurations
-@import '~song-vue-ui/style/index.scss'
+@import '~song-vue-ui/src/style/index.scss'
 # Add the following code to  src/main.js
 import 'index.scss'
 
