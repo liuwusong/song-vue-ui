@@ -7,14 +7,17 @@
 ```bash
 # install dependencies
 npm install song-vue-ui --save
-
 # Add the following code to  src/main.js
 import SongVueUi from 'song-vue-ui'
-# ~  = node_modules
-@import '~song-vue-ui/style/index.scss'
-
 Vue.use(SongVueUi)
 
-```
+# import scss
+# Create a new index.scss，Used to modify some configurations
+@import '~song-vue-ui/style/index.scss'
+# Add the following code to  src/main.js
+import 'index.scss'
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# You also need to install sass loader
+npm install sass-loader@^6.0.6
+
+```
