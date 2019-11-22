@@ -1,5 +1,4 @@
 import Alert from './components/Alert';
-
 const components = [Alert];
 
 const install = function(Vue, options) {
@@ -9,5 +8,4 @@ const install = function(Vue, options) {
   });
 };
 
-const Api = { install };
-export default Api;
+export default { install };
