@@ -1,5 +1,33 @@
 #{$prefix} {
   &alert {
-    border: 1px solid #fff;
+    border: $borderLine;
+    padding: $padding;
+    position: relative;
+  }
+  &alert-info {
+    background: $lightInfo;
+    border: 1px solid $info;
+  }
+  &alert-primary {
+    background: $lightPrimary;
+    border: 1px solid $primary;
+  }
+  &alert-success {
+    background: $lightSuccess;
+    border: 1px solid $success;
+  }
+  &alert-warning {
+    background: $lightWarning;
+    border: 1px solid $warning;
+  }
+  &alert-error {
+    background: $lightError;
+    border: 1px solid $error;
+  }
+  &alert-close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
   }
 }

@@ -1,0 +1,35 @@
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+a {
+  color: $lightPrimary;
+  text-decoration: none;
+}
+a:hover {
+  color: $darkPrimary;
+  text-decoration: none;
+}
+body {
+  background: $bodyBg;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  line-height: 1.5;
+}

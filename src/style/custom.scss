@@ -1,2 +1,47 @@
 // class 前缀
 $prefix: '.s-' !default;
+
+// 情景色
+$primary: #2d8cf0;
+$lightPrimary: #5cadff;
+$darkPrimary: #2b85e4;
+
+$info: #abdcff;
+$lightInfo: #f0faff;
+$darkInfo: #2db7f5;
+
+$success: #8ce6b0;
+$lightSuccess: #edfff3;
+$darkSuccess: #19be6b;
+
+$warning: #ffd77a;
+$lightWarning: #fff9e6;
+$darkWarning: #ff9900;
+
+$error: #ffb08f;
+$lightError: #ffefe6;
+$darkError: #ed4014;
+
+// 基础色调
+$title: #17233d;
+$content: #808695#515a6e;
+$small: #808695;
+$disabled: #c5c8ce;
+
+// 边框相关
+$border: #dcdee2;
+$borderLine: 1px solid #dcdee2;
+$borderDashedLine: 1px dashed #dcdee2;
+$borderRadius: 6px;
+$borderSmallRadius: 4px;
+
+// body
+$bodyBg: #f8f8f9;
+
+// 字体
+$fontSize: 14px;
+$fontFamily: 'Arial', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+
+// 边距
+$padding: 16px;
+$margin: 16px;
